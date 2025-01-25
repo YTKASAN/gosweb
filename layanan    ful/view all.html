@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View All Services - OCTA JASA</title>
+  <link rel="stylesheet" href="/css/view-all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="/index.html" class="back-button">Kembali</a>
+      <h1>Layanan Lengkap <span>OCTA JASA</span></h1>
+      <p>Pilih layanan yang sesuai dengan kebutuhan Anda.</p>
+    </div>
+  </header>
+
+  <!-- Service Section -->
+  <section class="service_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <!-- Layanan 1 -->
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="/images/s1.png" alt="Web Developer">
+            </div>
+            <div class="detail-box">
+              <h5>WEB DEVELOPER</h5>
+              <p>
+                Layanan ini mencakup pembuatan Website bisnis, shop, judi online, dan lainnya.
+              </p>
+              <a href="web dev.html" class="btn">KLIK DI SINI</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Layanan 2 -->
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/s2.png" alt="APK Developer">
+            </div>
+            <div class="detail-box">
+              <h5>APK DEVELOPER</h5>
+              <p>
+                Layanan pembuatan aplikasi Android dan iOS dengan fitur sesuai kebutuhan Anda.
+              </p>
+              <a href="APK DEVELOPER.html" class="btn">KLIK DI SINI</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Layanan 3 -->
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/s3.png" alt="Expert Support">
+            </div>
+            <div class="detail-box">
+              <h5>EXPERT SUPPORT</h5>
+              <p>
+                Dukungan ahli untuk kebutuhan teknologi dan solusi bisnis Anda.
+              </p>
+              <a href="#" class="btn">KLIK DI SINI</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tambahan Layanan -->
+      <div class="row">
+        <!-- Layanan 4 -->
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/s4.png" alt="SEO Optimization">
+            </div>
+            <div class="detail-box">
+              <h5>SEO OPTIMIZATION</h5>
+              <p>
+                Tingkatkan visibilitas website Anda di mesin pencari dengan strategi SEO terbaik.
+              </p>
+              <a href="#" class="btn">KLIK DI SINI</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Layanan 5 -->
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/s5.png" alt="Social Media Marketing">
+            </div>
+            <div class="detail-box">
+              <h5>SOCIAL MEDIA MARKETING</h5>
+              <p>
+                Layanan pemasaran media sosial untuk meningkatkan branding dan engagement.
+              </p>
+              <a href="#" class="btn">KLIK DI SINI</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Layanan 6 -->
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/s6.png" alt="Custom Development">
+            </div>
+            <div class="detail-box">
+              <h5>CUSTOM DEVELOPMENT</h5>
+              <p>
+                Pembuatan solusi digital yang dirancang khusus sesuai kebutuhan Anda.
+              </p>
+              <a href="#" class="btn">KLIK DI SINI</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+</section>
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 OCTA JASA. Semua hak cipta dilindungi.</p>
+  </div>
+</footer>
+
+<!-- Tombol Scroll ke Atas -->
+<a href="#" class="scroll-top" id="scrollTopButton">↑</a>
+
+<script>
+  // Tombol scroll ke atas
+  const scrollTopButton = document.getElementById("scrollTopButton");
+
+  // Tampilkan tombol saat scroll ke bawah
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      scrollTopButton.style.display = "block";
+    } else {
+      scrollTopButton.style.display = "none";
+    }
+  });
+
+  // Fungsi scroll ke atas
+  scrollTopButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+</script>
+</body>
+
+</html>
+

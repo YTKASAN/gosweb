@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OCTA JASA</title>
+  <link rel="stylesheet" href="/css/web dev.css"> <!-- File CSS eksternal -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="/index.html" class="back-button">Kembali</a>
+      <h1>OCTA JASA</h1>
+      <p>layanan jasa pembuatan website OCTA JASA</p>
+    </div>
+  </header>
+  
+
+  <section class="about-section">
+    <div class="container">
+      <h2>Website Judi Online Non Resmi</h2>
+    </div>
+  </section>
+
+  <section class="packages-section">
+    <div class="container">
+      <h2>Paket Layanan</h2>
+      <p>Pilih paket website judi slot yang di butuhkan oleh anda.</p>
+      <div class="packages">
+        <!-- Paket-paket layanan -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 OCTA JASA. Semua hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <!-- Tombol Scroll ke Atas -->
+  <a href="#" class="scroll-top" id="scrollTopButton">↑</a>
+
+  <script>
+    // Tombol scroll ke atas
+    const scrollTopButton = document.getElementById("scrollTopButton");
+
+    // Tampilkan tombol saat scroll ke bawah
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 200) {
+        scrollTopButton.style.display = "block";
+      } else {
+        scrollTopButton.style.display = "none";
+      }
+    });
+
+    // Fungsi scroll ke atas
+    scrollTopButton.addEventListener("click", (e) => {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    });
+  </script>
+</body>
+
+</html>

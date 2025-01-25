@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .header {
+    background: #f56e00;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .about-section, .packages-section {
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #2a9d8f;
+  }
+  
+  .packages {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .package {
+    flex: 0 0 30%;
+    max-width: 30%;
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .package img {
+    width: 60%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .package h3 {
+    margin-top: 10px;
+    color: #264653;
+  }
+  
+  .package ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .package ul li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #2a9d8f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background: #21867a;
+  }
+  
+  /* Label Styles */
+  .label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #f4a261;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .label.premium {
+    background: #2a9d8f;
+  }
+  
+  .label.custom {
+    background: #264653;
+  }
+  
+  .footer {
+    background: #264653;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  /* Gaya untuk Tombol Kembali */
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Gaya untuk Tombol Scroll ke Atas */
+  .scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: none; /* Tombol hanya muncul saat scroll ke bawah */
+  }
+  
+  .scroll-top:hover {
+    background-color: #218838;
+  }
+  
+  /* Contoh tambahan untuk halaman */
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .about-section {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .packages-section {
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .features-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .features-table th, .features-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .features-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .features-table td {
+    font-size: 16px;
+  }
+  
+  .features-table td:nth-child(2) {
+    text-align: center;
+  }
+  
